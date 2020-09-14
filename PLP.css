@@ -1,0 +1,133 @@
+/* font-family: 'Overpass', sans-serif; */
+#body{
+    font-family: 'Overpass', sans-serif;
+}
+button{
+    background-color:  rgb(88, 185, 230);
+}
+
+
+#header{
+    overflow: hidden;
+    background-color: rgb(223, 126, 126);
+    color: pink;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.nav-link{
+    float: right;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Overpass', sans-serif;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+.nav-link a:hover{    
+    color: rgb(242, 245, 250);
+}
+
+#header-img{
+    float: left;
+    width: 300px;
+    padding: 20px 25px;
+}
+
+
+/* features */
+#features{
+    background-color: rgb(88, 185, 230);
+    text-align: center;
+    padding: 50px;
+    font-family: 'Overpass', sans-serif;
+    margin: 50px;
+}
+
+#videopart{
+    margin: 10px;
+    text-align: center;
+}
+
+/* card boxes */
+#pricing{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);    
+}
+
+.container{
+    border-style: solid;
+    border-radius: 10px;
+    max-width: 300px;
+    min-width: 150px;
+    padding: 10px;
+    text-align: center;
+    margin: 50px; 
+    background-color: rgb(223, 126, 126);
+}
+
+/* email */
+#sub{
+    text-align: center;
+    background-color:  rgb(88, 185, 230);
+    padding: 50px;
+    margin: 50px;
+}
+
+
+/* footer */
+
+#footnote{
+    background-color: rgb(223, 126, 126);
+    padding: 20px;
+    text-align: center;
+}
+
+.foot-link{
+    text-decoration: none;
+    display: flex;
+}
+
+
+
+@media screen and (max-width: 767px){
+    #body{
+        width: 100%;
+    }
+
+
+    #pricing{
+        margin: 0;
+        display: grid;
+        width: 100%;
+    }
+
+     .logo {
+        margin-top: 15px;
+        width: 100%;
+        position: relative;
+      }
+
+      #nav-bar, #footer {
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 50px;
+      }
+      #nav-link {
+        padding-bottom: 5px;
+      }
+
+    /* #features{
+        width: 100%;
+          text-align: center;
+          padding: 0;
+          height: 150px;
+        }    */
+  }
